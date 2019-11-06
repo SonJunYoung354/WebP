@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document.write()연습</title>
+  <style>
+    </style>
+    <script>
+      function printStar(ret){
+          var a = parseInt(ret);
+        for(var i =0; i<a; i++){
+          for(var j = 0; j<=i; j++){
+            document.write("*");
+          }
+          document.write("<br>");
+        }
+
+       }
+    </script>
+  </head>
+<body>
+  <script>
+    var ret = 5;
+      var a = parseInt(ret);
+    printStar(ret);
+    </script>
+  </body>
+</html>

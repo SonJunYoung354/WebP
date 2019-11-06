@@ -1,0 +1,28 @@
+p1{
+  color : blue;
+}
+p2{
+  font-family: "궁서체";
+  font-size : 1em;
+}
+body{
+  background-color: aliceblue;
+}
+div{
+  background-color: pink;
+  margin-left: 10px;
+  margin-right: 1500px;
+}
+h3{
+  color : brown;
+  text-indent : 1em;
+}
+.p1{
+  font-family: "궁서체";
+  text-indent: 1em;
+}
+.color{
+  background-color: orange;
+  border-radius: 50px;
+  margin-right: 1500px;
+}

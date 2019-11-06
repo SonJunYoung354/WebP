@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document.write()연습</title>
+  <style>
+    </style>
+    <script>
+      function printStar(ret){
+          var a = parseInt(ret);
+        for(var i =0; i<a; i++){
+          for(var j = 0; j<=i; j++){
+            document.write("*");
+          }
+          document.write("<br>");
+        }
+
+       }
+    </script>
+  </head>
+<body>
+  <h3>별 문자 출력하기</h3>
+  <hr>
+  <script>
+    var ret = prompt("정수를 입력하세요","");
+      var a = parseInt(ret);
+    if(ret == null){
+      document.write("입력 오류입니다");
+    }
+    else if(ret ==""){
+      document.write("입력 오류입니다");
+    }
+    else if(ret != a){
+        document.write("입력 오류입니다");
+    }
+    printStar(ret);
+    </script>
+  </body>
+</html>
